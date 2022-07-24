@@ -35,7 +35,9 @@ const Navbar = () => {
           <a href="#">Contact </a>
         </li>
         <li>
-          <button></button>
+          <button>
+            <ion-icon name="cart-outline"></ion-icon>
+          </button>
         </li>
       </ul>
     </nav>
