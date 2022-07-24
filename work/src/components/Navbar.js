@@ -1,0 +1,45 @@
+import React from "react";
+const Navbar = () => {
+  return (
+    <nav>
+      <div className="logo">
+        <svg
+          width="39"
+          height="56"
+          viewBox="0 0 39 56"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.291 54.7158C9.19019 54.7158 1 46.2635 1 35.8351V19.8806C1 9.45419 9.19019 1 19.291 1C29.3937 1 37.5821 9.45419 37.5821 19.8806V35.8351C37.5839 46.2635 29.3937 54.7158 19.291 54.7158Z"
+            stroke="#7EB693"
+            stroke-width="2"
+            stroke-miterlimit="10"
+          />
+        </svg>
+      </div>
+      <ul className="nav-links">
+        <li>
+          <a href="#">home</a>
+        </li>
+        <li>
+          <a href="#">about us</a>
+        </li>
+        <li>
+          <a href="#">Shop</a>
+        </li>
+        <li>
+          <a href="#">Pages</a>
+        </li>
+        <li>
+          <a href="#">Contact </a>
+        </li>
+        <li>
+          <button></button>
+        </li>
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
